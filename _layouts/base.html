@@ -3,7 +3,36 @@
   {% include head.html %}
   <body>
 
-  {{ content }}
+    <div class="wrapper">
+      <header>
+          {% if site.compass.logo %}
+          <div class="logo-container">
+            <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
+          </div>
+          {% endif %}
+  
+          {% if site.compass.author %}
+          <div class="author-container"><h1>{{ site.compass.author }}</h1></div>
+          {% endif %}
+  
+          {% if site.compass.tagline %}
+          <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
+          {% endif %}
+          
+          <ul class="sidebar-nav">
+            <strong>Navigation</strong>
+            <li><a href="/">Home</a></li>
+            {% for link in site.links %}
+              <li><a class="sidebar-link" href="{{ link.url }}">{{ link.text }}</a></li>
+            {% endfor %}
+          </ul>
+      </header>
+      <main>
+        <div class="content">
+          {{ content }}
+        </div>
+      </main>
+    </div>
 
   </body>
 </html>
