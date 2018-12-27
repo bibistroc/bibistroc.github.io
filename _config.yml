@@ -8,8 +8,7 @@ compass:
   logo: "/images/profile.jpg"
   # author will appear under the avatar (optional)
   author: "Gabriel Barbu"
-  # tagline will appear under the title (optional)
-  tagline: "<a href='mailto:contact@gbarbu.eu'>contact@gbarbu.eu</a>"
+  description: "About Gabriel Barbu"
   # Twitter @username (as defined by the Twitter Card specs)
   twitter: "bibistroc"
 
