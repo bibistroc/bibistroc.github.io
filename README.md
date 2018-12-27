@@ -6,7 +6,7 @@ This repository is hosting the website located on [bibistroc.github.io](https://
 
 1. Install [ruby](https://rubyinstaller.org/downloads/)
 2. Install [bundler](https://bundler.io/): `gem install bundler`
-3. Install dependencies: `bundler install`
+3. Install dependencies: `bundle install`
 4. Run the website locally: `bundle exec jekyll serve`
 5. Browse `http://localhost:4000` to view the result
 

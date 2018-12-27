@@ -1,5 +1,5 @@
 # general configuration
-url: https://bibistroc.github.io
+url: https://gbarbu.eu
 baseurl: ''
 
 # compass configuration
@@ -20,6 +20,8 @@ links:
     url: /conferences/kmSibiu2018
   - text: "K&M Craiova 2017"
     url: /conferences/kmCraiova2017
+  - text: "Contact"
+    url: /contact
 
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

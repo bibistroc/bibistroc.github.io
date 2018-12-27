@@ -1,0 +1,24 @@
+---
+layout: base
+title: "Shortlink Not Found"
+permalink: 404short
+---
+<h2>Not Found (404)</h2>
+<p>It seems that the short link that you followed is not available anymore.</p>
+<p>Please use the form below to inform me which link you followed and from where so I can update it.</p>
+
+<form action="https://formspree.io/brokenlink@gbarbu.eu" method="POST">
+    <div class="form-group">
+        <label for="form-email-address">Email address (optional)</label>
+        <input type="email" name="email_address" class="form-control" id="form-email-address" placeholder="Only if you want to hear from me">
+    </div>
+    <div class="form-group">
+        <label for="form-name">Name (optional)</label>
+        <input type="text" name="name" class="form-control" id="form-name" placeholder="Only if you want to share it">
+    </div>
+    <div class="form-group">
+        <label for="form-message">Message</label>
+        <textarea class="form-control" name="message" id="form-message" placeholder="Where did you fin the dead link and what is the link?" rows="3"></textarea>
+    </div>
+    <input type="submit" value="Send">
+</form>
