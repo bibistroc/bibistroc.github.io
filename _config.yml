@@ -13,6 +13,8 @@ compass:
   twitter: "bibistroc"
 
 links:
+  - text: "Codecamp 2022"
+    url: /conferences/codecamp2022
   - text: "GDG DevFest Craiova 2019"
     url: /conferences/gdgCraiova2019
   - text: "K&M Craiova 2018"
