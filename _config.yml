@@ -13,18 +13,20 @@ compass:
   twitter: "bibistroc"
 
 links:
-  - text: "Codecamp 2022"
-    url: /conferences/codecamp2022
-  - text: "GDG DevFest Craiova 2019"
-    url: /conferences/gdgCraiova2019
-  - text: "K&M Craiova 2018"
-    url: /conferences/kmCraiova2018
-  - text: "K&M Sibiu 2018"
-    url: /conferences/kmSibiu2018
-  - text: "K&M Craiova 2017"
-    url: /conferences/kmCraiova2017
-  - text: "Contact"
-    url: /contact
+- text: "GDG Devfest Craiova 2022"
+  url: /conferences/gdgCraiova2022
+- text: "Codecamp 2022"
+  url: /conferences/codecamp2022
+- text: "GDG DevFest Craiova 2019"
+  url: /conferences/gdgCraiova2019
+- text: "K&M Craiova 2018"
+  url: /conferences/kmCraiova2018
+- text: "K&M Sibiu 2018"
+  url: /conferences/kmSibiu2018
+- text: "K&M Craiova 2017"
+  url: /conferences/kmCraiova2017
+- text: "Contact"
+  url: /contact
 
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
